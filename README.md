@@ -52,9 +52,9 @@ $ conda create --name 1p1s python=3.10
 $ conda activate 1p1s
 # choose the right cuda version of your device
 $ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia 
-$ conda install conda-forge::transformers 
+$ pip install transformers==4.46.3  # or: conda install conda-forge::transformers 
 $ conda install -c conda-forge diffusers
-$ pip install opencv-python scipy gradio=4.44.1 sympy==1.13.1
+$ pip install opencv-python scipy gradio==4.44.1 sympy==1.13.1
 ### Install dependencies ENDs ###
 
 # Run sample code
