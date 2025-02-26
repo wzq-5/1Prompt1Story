@@ -35,7 +35,7 @@
 * Consistent Image Generation Code: main.py
 * Gradio Code: app.py 
 * Benchmark Generation Code: resource/gen_benchmark.py
-* Consistory+ Benchmark: [link](./resource/consistory+.yml)
+* Consistory+ Benchmark: [link](./resource/consistory+.yaml)
 * Online Demo: [link](http://47.239.75.151:8080/)
 
 
