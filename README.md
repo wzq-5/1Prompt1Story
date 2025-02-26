@@ -32,10 +32,12 @@
 
 ## Key Features
 
-* Consistent Identity Image Generation.
-* Gradio Demo.
-* Consistory+ Benchmark: contains 200 prompt sets, with each set containing between 5 and 10 prompts, categorized into 8 superclasses: humans, animals, fantasy, inanimate, fairy tales, nature, technology.
-* Benchmark Generation Code.
+* Consistent Image Generation Code: main.py
+* Gradio Code: app.py 
+* Benchmark Generation Code: resource/gen_benchmark.py
+* Consistory+ Benchmark: [link](./resource/consistory+.yml)
+* Online Demo: [link](http://47.239.75.151:8080/)
+
 
 
 ## How To Use
@@ -57,13 +59,13 @@ $ conda install -c conda-forge diffusers
 $ pip install opencv-python scipy gradio==4.44.1 sympy==1.13.1
 ### Install dependencies ENDs ###
 
-# Run sample code
+# Run infer code
 $ python main.py
 
-# Run gradio demo
+# Run gradio code
 $ python app.py
 
-# Run Consistory+ benchmark
+# Run benchmark generation code
 $ python -m resource.gen_benchmark --save_dir ./result/benchmark --benchmark_path ./resource/consistory+.yaml
 ```
 
