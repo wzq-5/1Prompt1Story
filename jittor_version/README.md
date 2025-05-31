@@ -48,9 +48,5 @@ More environment setup details please see [this url](https://github.com/NK-Jitto
 conda activate jdiffusion
 python python -m jittor_version.main
 ```
-- Example Output
-  <figure style="display: inline-block; margin: 20px; text-align: center; max-width: 700px;">
-    <img src="../resource/multi_subject.jpg" alt="multi_subject" style="width: 100%;">
-  </figure>
 
 The demo experiment was conducted on a NVIDIA-3090 GPU.
