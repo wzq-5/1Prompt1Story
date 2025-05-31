@@ -37,7 +37,6 @@
 * Benchmark Generation Code: resource/gen_benchmark.py
 * Consistory+ Benchmark: [link](./resource/consistory+.yaml)
 * Online Gradio demo: [link](http://59.110.93.62:7089/)
-
 * 🚩[Chinese Version Paper (new)](https://www.overleaf.com/read/pxyhqpsccfjk#20922a)
 * 🚩[Jittor Version (new)](https://github.com/byliutao/1Prompt1Story/tree/main/jittor_version)
 
