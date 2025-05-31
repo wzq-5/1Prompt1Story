@@ -36,6 +36,7 @@
 * Gradio Demo.
 * Consistory+ Benchmark: contains 200 prompt sets, with each set containing between 5 and 10 prompts, categorized into 8 superclasses: humans, animals, fantasy, inanimate, fairy tales, nature, technology.
 * Benchmark Generation Code.
+* 🚩[Jittor Version (new)](https://github.com/byliutao/1Prompt1Story/tree/main/jittor_version)
 
 
 ## How To Use
