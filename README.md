@@ -1,12 +1,12 @@
 <h1 align="center">
-  🔥(ICLR 2025) One-Prompt-One-Story: Free-Lunch Consistent Text-to-Image Generation Using a Single Prompt
+  🔥ICLR 2025 (Spotlight) One-Prompt-One-Story: Free-Lunch Consistent Text-to-Image Generation Using a Single Prompt
   <br>
 </h1>
 
 
 <div align="center">
 
-<a href="http://47.239.75.151:8080/" style="display: inline-block;">
+<a href="http://59.110.93.62:7089/" style="display: inline-block;">
     <img src="./resource/gradio.svg" alt="demo" style="height: 20px; vertical-align: middle;">
 </a>&nbsp;
 <a href="https://arxiv.org/abs/2501.13554" style="display: inline-block;">
@@ -32,10 +32,12 @@
 
 ## Key Features
 
-* Consistent Identity Image Generation.
-* Gradio Demo.
-* Consistory+ Benchmark: contains 200 prompt sets, with each set containing between 5 and 10 prompts, categorized into 8 superclasses: humans, animals, fantasy, inanimate, fairy tales, nature, technology.
-* Benchmark Generation Code.
+* Consistent Image Generation Code: main.py
+* Gradio Code: app.py 
+* Benchmark Generation Code: resource/gen_benchmark.py
+* Consistory+ Benchmark: [link](./resource/consistory+.yaml)
+* Online Gradio demo: [link](http://59.110.93.62:7089/)
+
 * 🚩[Chinese Version Paper (new)](https://www.overleaf.com/read/pxyhqpsccfjk#20922a)
 * 🚩[Jittor Version (new)](https://github.com/byliutao/1Prompt1Story/tree/main/jittor_version)
 
@@ -54,18 +56,18 @@ $ conda create --name 1p1s python=3.10
 $ conda activate 1p1s
 # choose the right cuda version of your device
 $ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia 
-$ conda install conda-forge::transformers 
+$ pip install transformers==4.46.3  # or: conda install conda-forge::transformers 
 $ conda install -c conda-forge diffusers
-$ pip install opencv-python scipy gradio=4.44.1 sympy==1.13.1
+$ pip install opencv-python scipy gradio==4.44.1 sympy==1.13.1
 ### Install dependencies ENDs ###
 
-# Run sample code
+# Run infer code
 $ python main.py
 
-# Run gradio demo
+# Run gradio code
 $ python app.py
 
-# Run Consistory+ benchmark
+# Run benchmark generation code
 $ python -m resource.gen_benchmark --save_dir ./result/benchmark --benchmark_path ./resource/consistory+.yaml
 ```
 
